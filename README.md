@@ -48,15 +48,21 @@ Este projeto implementa o **algoritmo de Quine-McCluskey**, método tabular para
 ## Estrutura do Projeto
 
 ```
-lab06/
+LAB06-SD/
 ├── lab06_completo.py       # Script principal
+├── README.md
 └── benchmark/
     ├── tests/              # Casos de teste para as atividades
     │   ├── ex_and.pla
+    │   ├── ex00_f_da_folha.pla
     │   ├── ex01_funcao3var.pla
-    │   └── ex02_funcao4var.pla
-    └── benchmark/          # Arquivos para medição de desempenho
-        └── *.pla
+    │   ├── ex02_funcao4var.pla
+    │   ├── ex03_funcao5var.pla
+    │   └── ex04_funcao6var.pla
+    ├── benchmark/          # Arquivos para benchmark de desempenho
+    │   └── ex*.train.pla
+    └── validacao/          # Arquivos de validação
+        └── ex*.valid.pla
 ```
 
 ---
